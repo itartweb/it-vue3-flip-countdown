@@ -6,13 +6,13 @@
 
 
 <p align="center">
-  
+
 ![Netlify Status](https://api.netlify.com/api/v1/badges/69e11230-2c8b-4725-9540-7c0a861294e4/deploy-status)
-  <img src="https://img.shields.io/npm/l/vue3-flip-countdown" />
-  <a href="https://github.com/vuejs/awesome-vue"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"/></a>
-  <a href="https://www.npmjs.com/package/vue3-flip-countdown"><img src="https://img.shields.io/npm/v/vue3-flip-countdown"/> 
-   <img src="https://img.shields.io/npm/dt/vue3-flip-countdown"/></a>
-  <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/vue-3.x-brightgreen.svg"/></a>
+<img src="https://img.shields.io/npm/l/vue3-flip-countdown" />
+<a href="https://github.com/vuejs/awesome-vue"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"/></a>
+<a href="https://www.npmjs.com/package/vue3-flip-countdown"><img src="https://img.shields.io/npm/v/vue3-flip-countdown"/>
+<img src="https://img.shields.io/npm/dt/vue3-flip-countdown"/></a>
+<a href="https://vuejs.org/"><img src="https://img.shields.io/badge/vue-3.x-brightgreen.svg"/></a>
 </p>
 
 
@@ -23,7 +23,7 @@
 
 
 ## Table of contents
-  
+
 
 - [Demo](#demo)
 - [Installation](#installation)
@@ -85,23 +85,23 @@ export default {
 
 ## Emits
 
-| Name | Description | 
+| Name | Description |
 | --- | --- |
-| timeElapsed | event that created when the time came | 
+| timeElapsed | event that created when the time came |
 
 ## Props
 
-| Name | Type | Default | 
+| Name | Type | Default |
 | --- | --- | --- |
-| deadlineISO | String<br>YYYY-MM-DDTHH:mm:ss.sssZ |  | 
-| deadline | String<br>YYYY-MM-DD HH:mm:ss | 32d,0h,0m,10s | 
-| deadlineDate | Date |  | 
-| countdownSize | String | 3rem | 
-| labelSize | String | 1.2rem | 
+| deadlineISO | String<br>YYYY-MM-DDTHH:mm:ss.sssZ |  |
+| deadline | String<br>YYYY-MM-DD HH:mm:ss | 32d,0h,0m,10s |
+| deadlineDate | Date |  |
+| countdownSize | String | 3rem |
+| labelSize | String | 1.2rem |
 | flipAnimation | Boolean | true |
 | mainColor | String | '#EC685C' |
-| secondFlipColor | String | props.mainColor | 
-| mainFlipBackgroundColor | String | '#222222' | 
+| secondFlipColor | String | props.mainColor |
+| mainFlipBackgroundColor | String | '#222222' |
 | secondFlipBackgroundColor | String | '#393939' |
 | labelColor | String | '#222222' |
 | showLabels | Boolean | true |
